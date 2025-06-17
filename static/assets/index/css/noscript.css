@@ -1,0 +1,84 @@
+/*
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/* 绿色主题主色调 */
+:root {
+    --main-green: #2ecc40;
+    --light-green: #e8f5e9;
+    --white: #ffffff;
+    --dark-green: #218c34;
+    --text-color: #222;
+}
+
+/* 背景色调整 */
+body {
+    background: var(--light-green);
+    color: var(--text-color);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+/* BG */
+body.is-preload #bg:before {
+    background-color: var(--main-green);
+    opacity: 0.15;
+}
+
+/* Header */
+body.is-preload #header {
+    background: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 0 4px 24px rgba(46,204,64,0.08);
+    border: 2px solid var(--main-green);
+}
+
+body.is-preload #header > * {
+    opacity: 1;
+    color: var(--main-green);
+}
+
+body.is-preload #header .content .inner {
+    max-height: none;
+    padding: 3rem 2rem;
+    opacity: 1;
+}
+
+/* Main */
+#main article {
+    opacity: 1;
+    margin: 4rem 0 0 0;
+    background: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 2px 12px rgba(46,204,64,0.06);
+    padding: 2rem;
+    border-left: 5px solid var(--main-green);
+}
+
+/* 按钮样式 */
+button, .button, input[type="submit"] {
+    background: var(--main-green);
+    color: var(--white);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover, .button:hover, input[type="submit"]:hover {
+    background: var(--dark-green);
+}
+
+/* 链接样式 */
+a {
+    color: var(--main-green);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: var(--dark-green);
+    text-decoration: underline;
+}
