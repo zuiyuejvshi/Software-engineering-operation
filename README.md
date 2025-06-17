@@ -10,8 +10,8 @@
 
 - **后端框架**：Flask 2.0.2
 - **数据库**：MySQL 8.0.30
-- **开发语言**：Python 3.11.3
-- **运行环境**：Windows 10
+- **开发语言**：Python 3.8
+- **运行环境**：Windows 11
 
 ## ✨ 核心特性
 
@@ -64,7 +64,7 @@
 
 ## 👥 开发团队
 
-- [@zuiyuejvshi](https://github.com/zuiyuejvshi) - 项目负责人
+- [@zuiyuejvshi](https://github.com/zuiyuejvshi) - 后端开发
 - [@L1afm7](https://github.com/L1afm7) - 后端开发
 - [@Xiedongting2003](https://github.com/Xiedongting2003) - 前端开发
 - [@hhzy133](https://github.com/hhzy133) - UI设计
@@ -89,9 +89,7 @@
 
 ## 🌐 相关链接
 
-- [项目演示视频](https://www.bilibili.com/video/BV1km421V7si)
-- [问题反馈](https://github.com/zuiyuejvshi/MOYUN/issues)
-- [项目文档](https://github.com/zuiyuejvshi/MOYUN/wiki)
+- [项目演示视频](https://www.bilibili.com/video/BV16gNvzcEQk/?share_source=copy_web&vd_source=11d77982a9dea884298450f4a3a0bcfd)
 
 ## 基本功能
 
@@ -108,20 +106,15 @@
 
 ### 功能展示视频
 
-[“墨韵”功能展示——bilibili投稿视频](https://www.bilibili.com/video/BV1km421V7si/?vd_source=47d85ca9233479ae7de003b30ac94cae)
-
+- [项目演示视频](https://www.bilibili.com/video/BV16gNvzcEQk/?share_source=copy_web&vd_source=11d77982a9dea884298450f4a3a0bcfd)
   
 ### 运行环境
 
-> 该项目在`Windows 10`上测试通过，软件版本如下:
+> 该项目在`Windows 11`上测试通过，软件版本如下:
 
-* Python 3.11.3
+* Python 3.8
 * Flask 2.0.2
 * MySQL 8.0.30
-
-## 注意事项
-
-* 部署路径请全英文，但数据库中的内容允许中文、其他语言甚至Unicode表情。
 
 ## 运行方式
 * 运行app.py的主函数即可
